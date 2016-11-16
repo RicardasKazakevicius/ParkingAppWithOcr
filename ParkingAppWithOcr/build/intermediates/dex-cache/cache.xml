@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.0_21819b0fe200b0cb718c22b9f057f232ab91e3e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_16f6007d1e269dcc43ac05e879bfc82d41637532\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.0_8fbc266dd73fcfd277690bfa3e138954b42ae8ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_03d946345833e26cd99c76e91ad321f33aa5394c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.0_aa7e9719bf6cfa1821a9fe692ef039c78a45daab\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_d21b3018fb574925610121532943bc3986c1aa56\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.0_7bd61356957a278bcc4d5a0bf9b34d08e6987ed8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_d0ece0a09a6f18f527ff6ce1da26315200422154\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.0_c3bceab8af9f54389cb43363555e5cb4475ca770\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.0_db9b5f18976763f9142fc5ac0f58c78e4fb3e5dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="532d4a1fb26ded80c99f3f5e88f6db0d10b29709">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_294b865ee88d39408f9654f36e10b1404d5d76d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.0\support-annotations-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.0_4f2ef377dc8645fad98a9b6739eaac692ac4c833\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.0_2cf36357bef7b8d396b24062a3db7468a0f58bac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_842e69ddf7df5378c77d5c8580f5adfc6d028135\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_1658a2a5cba12fabe65720c6650dffed4a93e3d1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_640b685b7ac3ecd0e730c0d9c9264d339d6a8d03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.0_dcb12dba260c53e22370c44fefad5a6ce6991d4c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.2.0_49d6d44701b64876373537eeed860d4e11819ac4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_e490f565fa6057e545c5ffe509d36d256a9273fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.0_a7d36b2f5edeeba7b2fddd7e15bc743f953a6e38\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.0_2afe760f7c8edbb0cd77301262339101724c7427\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6c7000e4a19866f760f0d5efa0a2ec81653b63ba">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_15d9152e4625e16a05d998b3415f4894f01b8e35\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.0_fff4a7094a00259bcc86d3e01c14379df55fe818\classes.dex" />
+    </item>
+
+</items>

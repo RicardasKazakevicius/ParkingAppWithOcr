@@ -1,0 +1,7 @@
+#Tue Nov 15 17:21:02 EET 2016
+base.0=C\:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_15d9152e4625e16a05d998b3415f4894f01b8e35
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_294b865ee88d39408f9654f36e10b1404d5d76d5\\classes.dex
+base.1=C\:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_294b865ee88d39408f9654f36e10b1404d5d76d5
+file.0=C\:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_15d9152e4625e16a05d998b3415f4894f01b8e35\\classes.dex

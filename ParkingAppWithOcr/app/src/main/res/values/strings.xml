@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Automobilio stovėjimo aplikacija</string>
+    <string name="stovejimas">Automobilio stovėjimas</string>
+    <string name="license_plate">Automobilio numeris</string>
+    <string name="enter_number_hint">Įvesti naują numerį</string>
+    <string name="to_take_photo">Nufotografuoti</string>
+    <string name="vehicle_parking">Automobilio stovejimas</string>
+    <string name="license_plate_btn">"Nr."</string>
+    <string name="zone_btn">Zona</string>
+    <string name="time_btn">Laikas</string>
+    <string name="start_parking_btn">Pradėti</string>
+    <string name="confirm_scanned_number">Pasirinkti</string>
+    <string name="take_photo_of_number">Nufotografuoti numeri</string>
+    <string name="take_photo">Fotografuoti</string>
+    <string name="automatic_break">Automatinis sustabdymas</string>
+    <string name="after_1hour">Po valandos</string>
+    <string name="after_2hours">Po 2 valandų</string>
+    <string name="after_3hours">Po 3 valandų</string>
+    <string name="different_time">Kitu laiku</string>
+    <string name="pick_time">Pasirinkti laiką</string>
+    <string name="choose_zone">Pasirinkite zoną</string>
+    <string name="get_address">Nustatyti adresą</string>
+    <string name="green_zone">Žalioji  8-18h \n 0.3 EUR/1 val.</string>
+    <string name="yellow_zone">"Geltonoji  8-20h \n 0.6 EUR/1 val.</string>
+    <string name="red_zone">Raudonoji  8-22h \n 0.9 EUR/1 val.</string>
+    <string name="blue_zone">Melynoji  8-24h \n 1.2 EUR/1 val.</string>
+    <string name="yes">Taip</string>
+    <string name="no">Ne</string>
+
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Ocr Detector Sample</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+</resources>
