@@ -3,6 +3,8 @@ package parking;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
+import android.graphics.Color;
+import android.graphics.drawable.Drawable;
 import android.icu.util.Calendar;
 import android.os.Build;
 import android.os.Bundle;
@@ -12,6 +14,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.google.android.gms.samples.vision.ocrreader.R;
@@ -26,9 +30,9 @@ public class MainFields extends Fragment {
     TextView zone;
     TextView time;
     TextView cost;
-    Button licensePlateBtn;
-    Button timeBtn;
-    Button zoneBtn;
+    ImageButton licensePlateBtn;
+    ImageButton timeBtn;
+    ImageButton zoneBtn;
     Button start;
 
     @RequiresApi(api = Build.VERSION_CODES.N)
@@ -40,16 +44,37 @@ public class MainFields extends Fragment {
         zone = (TextView) inflatedView.findViewById(R.id.zone_text_field);
         time = (TextView) inflatedView.findViewById(R.id.duration_text);
         licensePlate = (TextView) inflatedView.findViewById(R.id.license_plate_field);
+        zoneBtn = (ImageButton) inflatedView.findViewById(R.id.zone_btn);
 
+        if (Singleton.getInstance().getZone() != null) {
+            Integer zoneInt = Singleton.getInstance().getZone();
+            if (zoneInt == R.string.green_zone) {
+                zone.setText(getResources().getString(R.string.green_zone));
+                zoneBtn.setBackgroundResource(R.drawable.green);
+            }
+            if (zoneInt == R.string.yellow_zone) {
+                zone.setText(getResources().getString(R.string.yellow_zone));
+                zoneBtn.setBackgroundResource(R.drawable.yellow);
+            }
+            if (zoneInt == R.string.red_zone) {
+                zone.setText(getResources().getString(R.string.red_zone));
+                zoneBtn.setBackgroundResource(R.drawable.red);
+            }
+            if (zoneInt == R.string.blue_zone) {
+                zone.setText(getResources().getString(R.string.blue_zone));
+                zoneBtn.setBackgroundResource(R.drawable.blue);
+            }
+        }
 
-        zone.setText(Singleton.getInstance().getZone());
         licensePlate.setText(Singleton.getInstance().getLicesePlate());
         time.setText(Singleton.getInstance().getTime());
 
         if (zone.getText() != "" && time.getText() != "") {
             cost = (TextView) inflatedView.findViewById(R.id.cost);
+            cost.setBackgroundResource(R.drawable.border);
             cost.setText("Kaina: " + getPrice() + " EUR");
         }
+
 
         start = (Button) inflatedView.findViewById(R.id.start_btn);
 
@@ -62,46 +87,48 @@ public class MainFields extends Fragment {
             }
         });
 
-        licensePlateBtn = (Button) inflatedView.findViewById(R.id.license_plate_btn);
+        licensePlateBtn = (ImageButton) inflatedView.findViewById(R.id.license_plate_btn);
 
         licensePlateBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+                LinearLayout linearLayout;
+                linearLayout = (LinearLayout) inflatedView.findViewById(R.id.license_layout);
+                linearLayout.setBackgroundColor(Color.parseColor("#E0E0E0"));
 
                 final FragmentManager fragmentManager = getFragmentManager();
                 final FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
                 LicensePlateFragment licensePlateFragment = new LicensePlateFragment();
 
+                fragmentTransaction.setCustomAnimations(R.animator.slide_in_right, R.animator.slide_out_left);
                 fragmentTransaction.replace(android.R.id.content, licensePlateFragment);
                 fragmentTransaction.addToBackStack("main_buttons_fragment1").commit();
             }
         });
 
-        zoneBtn = (Button) inflatedView.findViewById(R.id.zone_btn);
-
         zoneBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-
                 final FragmentManager fragmentManager = getFragmentManager();
                 final FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
                 ZoneFragment zoneFragment = new ZoneFragment();
 
+                fragmentTransaction.setCustomAnimations(R.animator.slide_in_right, R.animator.slide_out_left);
                 fragmentTransaction.replace(android.R.id.content, zoneFragment);
                 fragmentTransaction.addToBackStack("main_buttons_fragment2").commit();
             }
         });
 
-        timeBtn = (Button) inflatedView.findViewById(R.id.time_btn);
+        timeBtn = (ImageButton) inflatedView.findViewById(R.id.time_btn);
 
         timeBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-
                 final FragmentManager fragmentManager = getFragmentManager();
                 final FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
                 TimeFragment timeFragment = new TimeFragment();
 
+                fragmentTransaction.setCustomAnimations(R.animator.slide_in_right, R.animator.slide_out_left);
                 fragmentTransaction.replace(android.R.id.content, timeFragment);
                 fragmentTransaction.addToBackStack("main_buttons_fragment3").commit();
             }
@@ -112,7 +139,7 @@ public class MainFields extends Fragment {
     @RequiresApi(api = Build.VERSION_CODES.N)
     private Double getPrice()
     {
-        String zone = Singleton.getInstance().getZone();
+        String zone = getResources().getString(Singleton.getInstance().getZone());
         Integer hours = Singleton.getInstance().getHours();
         Integer minutes = Singleton.getInstance().getMinutes();
         Calendar calendar = Calendar.getInstance();

@@ -52,7 +52,7 @@ MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\ricar\AndroidStud
 MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\src\main\AndroidManifest.xml:19:9-37
+		ADDED from C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\src\main\AndroidManifest.xml:19:9-35
 	android:supportsRtl
 		ADDED from C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\src\main\AndroidManifest.xml:20:9-37
 	android:hardwareAccelerated
@@ -62,7 +62,7 @@ MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\ricar
 	android:allowBackup
 		ADDED from C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\src\main\AndroidManifest.xml:15:9-35
 	android:icon
-		ADDED from C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\src\main\AndroidManifest.xml:18:9-38
+		ADDED from C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\src\main\AndroidManifest.xml:18:9-41
 	android:theme
 		ADDED from C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\src\main\AndroidManifest.xml:21:9-56
 meta-data#com.google.android.gms.version

@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
         "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
         "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.4.0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
@@ -134,6 +138,10 @@
     {
         "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",

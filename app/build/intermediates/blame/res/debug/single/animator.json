@@ -4,6 +4,14 @@
         "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\src\\main\\res\\animator\\slide_in_left.xml"
     },
     {
+        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\animator\\slide_out_left.xml",
+        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\src\\main\\res\\animator\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\animator\\slide_in_right.xml",
+        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\src\\main\\res\\animator\\slide_in_right.xml"
+    },
+    {
         "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\animator\\slide_out_right.xml",
         "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\src\\main\\res\\animator\\slide_out_right.xml"
     }

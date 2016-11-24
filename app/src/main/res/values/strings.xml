@@ -13,7 +13,7 @@
     <string name="confirm_scanned_number">Pasirinkti</string>
     <string name="take_photo_of_number">Nufotografuoti numeri</string>
     <string name="take_photo">Fotografuoti</string>
-    <string name="automatic_break">Automatinis sustabdymas</string>
+    <string name="automatic_break">Baigti stovėjimą</string>
     <string name="after_1hour">Po valandos</string>
     <string name="after_2hours">Po 2 valandų</string>
     <string name="after_3hours">Po 3 valandų</string>

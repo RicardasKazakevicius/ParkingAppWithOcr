@@ -1,5 +1,7 @@
 package parking;
 
+import android.widget.LinearLayout;
+
 /**
  * Created by Ricardas on 2016-11-07.
  */
@@ -7,7 +9,7 @@ package parking;
 public class Singleton {
     private static Singleton instance = null;
 
-    private String zone;
+    private Integer zone;
     private Integer hour;
     private Integer minute;
     private String licesePlate;
@@ -26,7 +28,7 @@ public class Singleton {
         return instance;
     }
 
-    public void setZone(String zone){
+    public void setZone(Integer zone){
         this.zone = zone;
     }
     public  void setTime(Integer hour, Integer minute){
@@ -71,7 +73,7 @@ public class Singleton {
         return this.longitude;
     }
 
-    public String getZone(){
+    public Integer getZone(){
         return this.zone;
     }
 

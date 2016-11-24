@@ -40,12 +40,12 @@
         "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zone_fragment.xml",
-        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\src\\main\\res\\layout\\zone_fragment.xml"
-    },
-    {
         "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\zone_fragment.xml",
+        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\src\\main\\res\\layout\\zone_fragment.xml"
     },
     {
         "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
@@ -156,12 +156,12 @@
         "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\notification_media_action.xml"
-    },
-    {
         "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.0\\res\\layout\\notification_media_action.xml"
     },
     {
         "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",

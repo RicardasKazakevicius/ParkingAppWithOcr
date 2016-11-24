@@ -97,7 +97,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="532d4a1fb26ded80c99f3f5e88f6db0d10b29709">
+        sha1="5fddc60f4ddbdf051808f1eb258e1a89077dc04c">
         <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_294b865ee88d39408f9654f36e10b1404d5d76d5\classes.dex" />
     </item>
     <item
@@ -196,7 +196,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="6c7000e4a19866f760f0d5efa0a2ec81653b63ba">
+        sha1="3d0d1d46c477b9166308b8dea42801936489a19f">
         <dex dex="C:\Users\ricar\AndroidStudioProjects\ParkingAppWithOcr\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_15d9152e4625e16a05d998b3415f4894f01b8e35\classes.dex" />
     </item>
     <item

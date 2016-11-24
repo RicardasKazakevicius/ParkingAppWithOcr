@@ -24,6 +24,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.hardware.Camera;
 import android.os.Build;
@@ -38,16 +39,12 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
-import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
-import com.google.android.gms.common.SignInButton;
-import com.google.android.gms.common.api.CommonStatusCodes;
 import com.google.android.gms.samples.vision.ocrreader.ui.camera.CameraSource;
 import com.google.android.gms.samples.vision.ocrreader.ui.camera.CameraSourcePreview;
 import com.google.android.gms.samples.vision.ocrreader.ui.camera.GraphicOverlay;
@@ -55,7 +52,6 @@ import com.google.android.gms.vision.text.TextBlock;
 import com.google.android.gms.vision.text.TextRecognizer;
 
 import java.io.IOException;
-import java.util.Locale;
 
 import parking.MainActivity;
 import parking.Singleton;
@@ -117,9 +113,9 @@ public final class OcrCaptureActivity extends AppCompatActivity {
         gestureDetector = new GestureDetector(this, new CaptureGestureListener());
         scaleGestureDetector = new ScaleGestureDetector(this, new ScaleListener());
 
-//        Snackbar.make(mGraphicOverlay, "Tap to Speak. Pinch/Stretch to zoom",
-//                Snackbar.LENGTH_LONG)
-//                .show();
+        Snackbar.make(mGraphicOverlay, "Nukreipkite kamerą prieš tekstą ir paspauskite ant pasirodžiusio kvadrato",
+                Snackbar.LENGTH_LONG)
+                .show();
 
         confirmBtn = (Button) findViewById(R.id.confirmLicensePlate);
         confirmBtn.setOnClickListener(new View.OnClickListener() {
@@ -134,6 +130,12 @@ public final class OcrCaptureActivity extends AppCompatActivity {
                                 public void onClick(DialogInterface dialog, int which) {
                                     Singleton.getInstance().setLicesePlate((String) textView.getText());
 
+                                    Context context = OcrCaptureActivity.this;
+                                    SharedPreferences sharedPref = context.getSharedPreferences("parking", Context.MODE_PRIVATE);
+                                    SharedPreferences.Editor editor = sharedPref.edit();
+                                    editor.putString("license_plate1", "" + textView.getText());
+                                    editor.commit();
+
                                     Intent intent = new Intent(OcrCaptureActivity.this, MainActivity.class);
                                     OcrCaptureActivity.this.startActivity(intent);
                                 }
@@ -144,16 +146,11 @@ public final class OcrCaptureActivity extends AppCompatActivity {
                             })
                             .setIcon(android.R.drawable.dialog_holo_light_frame)
                             .show();
-
-
-
-
                 }
             }
         });
-
-
         // Set up the Text To Speech engine.
+        /*
         TextToSpeech.OnInitListener listener =
                 new TextToSpeech.OnInitListener() {
                     @Override
@@ -167,6 +164,7 @@ public final class OcrCaptureActivity extends AppCompatActivity {
                     }
                 };
         tts = new TextToSpeech(this.getApplicationContext(), listener);
+        */
     }
 
     /**

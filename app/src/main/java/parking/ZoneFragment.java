@@ -20,6 +20,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.LinearLayout;
+import android.widget.RadioButton;
+import android.widget.Switch;
 import android.widget.TextView;
 
 import com.google.android.gms.samples.vision.ocrreader.R;
@@ -36,20 +40,16 @@ import static android.content.Context.LOCATION_SERVICE;
 public class ZoneFragment extends Fragment {
     View inflatedView = null;
     TextView address;
-    Button greenBtn;
-    Button yellowBtn;
-    Button redBtn;
-    Button blueBtn;
-    Button localizationBtn;
+    LinearLayout green;
+    LinearLayout yellow;
+    LinearLayout red;
+    LinearLayout blue;
+    Switch localizationBtn;
     LocationManager locationManager;
     LocationListener locationListener;
 
-    private void setZone(Button button) {
+    private void setZone() {
         MainFields mainFields = new MainFields();
-
-
-
-        Singleton.getInstance().setZone((String) button.getText());
 
         final FragmentManager fragmentManager = getFragmentManager();
         final FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -63,51 +63,62 @@ public class ZoneFragment extends Fragment {
     @RequiresApi(api = Build.VERSION_CODES.M)
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, final Bundle savedInstanceState) {
+    public View onCreateView(final LayoutInflater inflater, ViewGroup container, final Bundle savedInstanceState) {
         this.inflatedView = inflater.inflate(R.layout.zone_fragment, container, false);
+        setLocation();
+        green = (LinearLayout) inflatedView.findViewById(R.id.green);
 
-        greenBtn = (Button) inflatedView.findViewById(R.id.green_btn);
-
-        greenBtn.setOnClickListener(new View.OnClickListener() {
+        green.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                setZone(greenBtn);
+                Singleton.getInstance().setZone( R.string.green_zone );
+                setZone();
             }
         });
 
-        yellowBtn = (Button) inflatedView.findViewById(R.id.yellow_btn);
+        yellow = (LinearLayout) inflatedView.findViewById(R.id.yellow);
 
-        yellowBtn.setOnClickListener(new View.OnClickListener() {
+        yellow.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                setZone(yellowBtn);
+                Singleton.getInstance().setZone( R.string.yellow_zone );
+                setZone();
             }
         });
 
-        redBtn = (Button) inflatedView.findViewById(R.id.red_btn);
+        red = (LinearLayout) inflatedView.findViewById(R.id.red);
 
-        redBtn.setOnClickListener(new View.OnClickListener() {
+        red.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                setZone(redBtn);
+                Singleton.getInstance().setZone( R.string.red_zone );
+                setZone();
             }
         });
 
-        blueBtn = (Button) inflatedView.findViewById(R.id.blue_btn);
+        blue = (LinearLayout) inflatedView.findViewById(R.id.blue);
 
-        blueBtn.setOnClickListener(new View.OnClickListener() {
+        blue.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                setZone(blueBtn);
+                Singleton.getInstance().setZone( R.string.blue_zone );
+                setZone();
             }
         });
 
 
-        localizationBtn = (Button) inflatedView.findViewById(R.id.localization_btn);
+        localizationBtn = (Switch) inflatedView.findViewById(R.id.localization_btn);
 
-        localizationBtn.setOnClickListener(new View.OnClickListener() {
-            @RequiresApi(api = Build.VERSION_CODES.M)
-            public void onClick(View v) {
-                setLocation();
+        localizationBtn.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
+                if (isChecked) {
+                    setLocation();
 
-                address = (TextView) inflatedView.findViewById(R.id.coordinates);
-                address.setText(getCompleteAddressString(Singleton.getInstance().getLatitude(), Singleton.getInstance().getLongitude()));
+                    address = (TextView) inflatedView.findViewById(R.id.coordinates);
+                    address.setText(getCompleteAddressString(Singleton.getInstance().getLatitude(), Singleton.getInstance().getLongitude()));
+                    if (address.getText() == "Nepavyko nustatyti adreso") {
+                        localizationBtn.setChecked(false);
+                    }
+                } else {
+                    address.setText("Nustatyti adresą");
+                }
             }
         });
 
@@ -165,7 +176,7 @@ public class ZoneFragment extends Fragment {
     }
 
     private String getCompleteAddressString(double LATITUDE, double LONGITUDE) {
-        String strAdd = "";
+        String strAdd = "Nepavyko nustatyti adreso";
         Geocoder geocoder = new Geocoder(getActivity(), Locale.getDefault());
         try {
             List<Address> addresses = geocoder.getFromLocation(LATITUDE, LONGITUDE, 1);
@@ -179,7 +190,6 @@ public class ZoneFragment extends Fragment {
                 strAdd = strReturnedAddress.toString();
 //                Log.w("My Current loction address", "" + strReturnedAddress.toString());
             } else {
-                strAdd = "Nepavyko nustatyti adreso";
 //                Log.w("My Current loction address", "No Address returned!");
             }
         } catch (Exception e) {

@@ -1,6 +1,38 @@
 [
     {
-        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
-        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\square.png",
+        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\src\\main\\res\\drawable-hdpi\\square.png"
+    },
+    {
+        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\grey.png",
+        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\src\\main\\res\\drawable-hdpi\\grey.png"
+    },
+    {
+        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\blue.png",
+        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\src\\main\\res\\drawable-hdpi\\blue.png"
+    },
+    {
+        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\parking.png",
+        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\src\\main\\res\\drawable-hdpi\\parking.png"
+    },
+    {
+        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\time.png",
+        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\src\\main\\res\\drawable-hdpi\\time.png"
+    },
+    {
+        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\red.png",
+        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\src\\main\\res\\drawable-hdpi\\red.png"
+    },
+    {
+        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\yellow.png",
+        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\src\\main\\res\\drawable-hdpi\\yellow.png"
+    },
+    {
+        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\green.png",
+        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\src\\main\\res\\drawable-hdpi\\green.png"
+    },
+    {
+        "merged": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\nr.png",
+        "source": "C:\\Users\\ricar\\AndroidStudioProjects\\ParkingAppWithOcr\\app\\src\\main\\res\\drawable-hdpi\\nr.png"
     }
 ]
